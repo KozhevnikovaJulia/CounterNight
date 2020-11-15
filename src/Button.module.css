@@ -1,0 +1,41 @@
+.button {
+  background-color: gray;
+  /* border: none; */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+
+  background-color: rgb(5, 5, 32);
+   /* #0f3854; */
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.button:disabled{
+  background-color: gray;
+  opacity: .5;
+  /* border: none; */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+
+  background-color: #0f3854;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border: white;
+  
+  
+}
+

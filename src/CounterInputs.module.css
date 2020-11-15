@@ -1,0 +1,26 @@
+.displayInputs{
+  width: 400px;
+  margin: 100px;
+  display: grid;
+  padding: 20px;
+  grid-template-areas:
+    "display "
+    "button";
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1vw;
+
+  background-color: rgb(5, 5, 32);
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border: 2px solid white;
+  border-radius: 40px;
+}
+.buttons {
+  text-align: center;
+  grid-area: button;
+}
+

@@ -1,0 +1,50 @@
+.containerInputs {
+  width: 350px;
+  height: 150px;
+  /* margin: auto; */
+  background-color: gray;
+  border: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+  font-size: 100px;
+  grid-area: display;
+
+  background-color: rgb(5, 5, 32);
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border: 2px solid white;
+  border-radius: 30px;
+  
+}
+
+.containerInputsError {
+  width: 350px;
+  height: 150px;
+  margin: auto;
+  background-color: rgb(245, 135, 171) ;
+  border: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+  font-size: 100px;
+  grid-area: display;
+}
+.inputsArea{
+margin-top: 30px;
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3vw;
+  font-size: 21px;
+}
+
+.input  {
+  background-color: whitesmoke;
+
+}
+.errorInput  {
+  background-color: palevioletred;
+
+}
+/* crimson */

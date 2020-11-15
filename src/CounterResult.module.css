@@ -1,0 +1,30 @@
+.displayResult {
+  width: 400px;
+  margin: 100px ;
+   display: grid;
+  margin-left: 0px ;
+  padding: 20px;
+  grid-template-areas:
+    "display "
+    "buttons";
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1vw;
+
+  background-color:  rgb(5, 5, 32);
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border: 2px solid white;
+  border-radius: 40px;
+}
+.buttons {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 1vw;
+  text-align: center;
+  grid-area: buttons;
+
+}
