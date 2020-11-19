@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CounterNight/static/css/main.cf1a9054.chunk.css",
+    "main.js": "/CounterNight/static/js/main.4833c197.chunk.js",
+    "main.js.map": "/CounterNight/static/js/main.4833c197.chunk.js.map",
+    "runtime-main.js": "/CounterNight/static/js/runtime-main.d20bc30c.js",
+    "runtime-main.js.map": "/CounterNight/static/js/runtime-main.d20bc30c.js.map",
+    "static/js/2.6e06f72d.chunk.js": "/CounterNight/static/js/2.6e06f72d.chunk.js",
+    "static/js/2.6e06f72d.chunk.js.map": "/CounterNight/static/js/2.6e06f72d.chunk.js.map",
+    "static/js/3.f0d51c28.chunk.js": "/CounterNight/static/js/3.f0d51c28.chunk.js",
+    "static/js/3.f0d51c28.chunk.js.map": "/CounterNight/static/js/3.f0d51c28.chunk.js.map",
+    "index.html": "/CounterNight/index.html",
+    "static/css/main.cf1a9054.chunk.css.map": "/CounterNight/static/css/main.cf1a9054.chunk.css.map",
+    "static/js/2.6e06f72d.chunk.js.LICENSE.txt": "/CounterNight/static/js/2.6e06f72d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d20bc30c.js",
+    "static/js/2.6e06f72d.chunk.js",
+    "static/css/main.cf1a9054.chunk.css",
+    "static/js/main.4833c197.chunk.js"
+  ]
+}
