@@ -1,6 +1,8 @@
 .containerResult {
-  width: 350px;
-  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   font-size: 100px;
   grid-area: display;
@@ -15,8 +17,10 @@
 
 }
 .containerResultError {
-  width: 350px;
-  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: rgb(245, 135, 171);
   padding: 20px;
   font-size: 100px;
@@ -32,8 +36,10 @@
 }
 
 .spanInterValue {
-  width: 350px;
-  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   font-size: 40px;
   grid-area: display;
@@ -46,3 +52,4 @@
   border: 2px solid white;
   border-radius: 30px;
 }
+

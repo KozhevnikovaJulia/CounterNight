@@ -1,7 +1,6 @@
 .displayResult {
   width: 400px;
-  height: 300px;
-  margin: 100px ;
+  height: 300px; 
    display: grid;
   margin-left: 0px ;
   padding: 20px;

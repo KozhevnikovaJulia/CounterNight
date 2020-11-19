@@ -23,10 +23,6 @@ export function App() {
   const incCallBack = () => { number++; setNumber(number)}
   const resetCallBack = () => { setNumber(startValue)}
 
-  // const onClickCallBack = () => {
-
-  // }
-
   
 
    return (

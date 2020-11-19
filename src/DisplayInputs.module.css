@@ -1,7 +1,7 @@
 .containerInputs {
-  width: 350px;
-  height: 150px;
-  /* margin: auto; */
+  width: 100%;
+ display: flex;
+ align-items: center;
   background-color: gray;
   border: 1px solid gray;
   padding: 20px;
@@ -20,8 +20,9 @@
 }
 
 .containerInputsError {
-  width: 350px;
-  height: 150px;
+  width: 100%;
+  display: flex;
+ align-items: center;
   margin: auto;
   background-color: rgb(245, 135, 171) ;
   border: 1px solid gray;
@@ -31,7 +32,6 @@
   grid-area: display;
 }
 .inputsArea{
-margin-top: 30px;
   display: grid;
   grid-template-rows: 1fr 1fr ;
   grid-template-columns: 1fr 1fr;
@@ -47,4 +47,3 @@ margin-top: 30px;
   background-color: palevioletred;
 
 }
-/* crimson */

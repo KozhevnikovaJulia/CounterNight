@@ -1,7 +1,6 @@
 .displayInputs{
   width: 400px;
-  height: 300px;
-  margin: 100px;
+  height: 300px; 
   display: grid;
   padding: 20px;
   grid-template-areas:
@@ -25,3 +24,8 @@
   grid-area: button;
 }
 
+@media (max-width: 400px){
+  .displayInputs{
+    width: 100%;
+  }
+}
