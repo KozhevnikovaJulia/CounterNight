@@ -6,16 +6,16 @@ type DisplayResultPropsType={
   number: number
   maxValue: number
   startValue: number
-  enterValue: boolean
-  errorInput1: boolean
-  errorInput2: boolean
+  warning: boolean
+  errorMaxInput: boolean
+  errorStartInput: boolean
  }
 
 export function DisplayResult (props: DisplayResultPropsType) {
      
   return (
     <div >
-    {props.enterValue ? <div className={s.spanInterValue}>  {props.errorInput1 || props.errorInput2? "Incorrect value!" : "Enter values and press 'set'"}</div>
+    {props.warning ? <div className={s.spanInterValue}>  {props.errorMaxInput || props.errorStartInput? "Incorrect value!" : "Enter values and press 'set'"}</div>
     : <div className={props.number >= props.maxValue || props.number< props.startValue ? s.containerResultError  : s.containerResult}>{props.number} </div> }
     
     </div>
