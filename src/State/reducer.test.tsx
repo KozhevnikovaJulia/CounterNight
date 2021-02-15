@@ -1,4 +1,4 @@
-import {reducer, StateType, incCallBackAC, setCallBackAC, onChangeMaxInputAC, onChangeStartInputAC } from "./Reducer";
+import {reducer, StateType, incCallBackAC, setCallBackAC, onChangeMaxInputAC, onChangeStartInputAC } from "./reducer"
 
 test('number increace', () => {
    let startNumberState: StateType = {

@@ -1,34 +1,20 @@
-import React,  {useState, useReducer} from 'react';
-import './App.css';
-import {CounterInputs} from "./CounterInputs";
-import {CounterResult} from "./CounterResult";
-import {reducer, incCallBackAC, resetCallBackAC} from "./State/reducer"
-import {AppRootStateType} from "./State/Store/store";
-import {useSelector, useDispatch} from "react-redux";
+import React,  {useState, useReducer} from "react"
+import "./App.css"
+import {CounterInputs} from "./CounterInputs"
+import {CounterResult} from "./CounterResult"
+import {incCallBackAC, resetCallBackAC} from "./State/reducer"
+import {AppRootStateType} from "./State/Store/store"
+import {useSelector, useDispatch} from "react-redux"
 import {StateType} from "./State/reducer"
 
 export function App() {
   const state = useSelector<AppRootStateType, StateType>(state => state.state)
   const dispatch = useDispatch()
 
-// let [state,dispatch] = useReducer(reducer, {
-//   number: 0,
-//   maxValue: 5,
-//   startValue: 0,
-//   incDisable: false,
-//   resetDisable: true,
-//   setDisable: true,
-//   errorMaxInput: false,
-//   errorStartInput: false,
-//   warning:false  
-// })
-
-  const incCallBack = () => {
-    const action = incCallBackAC()
+  const incCallBack = () => { const action = incCallBackAC()
     dispatch(action)
   }
-  const resetCallBack = () => {
-    const action = resetCallBackAC()
+  const resetCallBack = () => { const action = resetCallBackAC()
    dispatch(action)
   }
 

@@ -1,13 +1,12 @@
-import React, { useState, ChangeEvent } from 'react';
-import {Button} from "./Button";
+import React, { useState, ChangeEvent } from "react"
+import {Button} from "./Button"
 import {DisplayResult} from "./DisplayResult"
-import s from "./CounterResult.module.css";
+import s from "./CounterResult.module.css"
 
 type CounterResultPropsType ={
     maxValue:number
     startValue:number   
     number:number
-    // setNumber: (number: number)=> void
     incCallBack:()=> void
     resetCallBack: ()=> void
     warning: boolean

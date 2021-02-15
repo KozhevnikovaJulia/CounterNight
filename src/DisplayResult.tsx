@@ -1,5 +1,5 @@
-import React from 'react';
-import s from "./DisplayResult.module.css";
+import React from "react"
+import s from "./DisplayResult.module.css"
 
 
 type DisplayResultPropsType={

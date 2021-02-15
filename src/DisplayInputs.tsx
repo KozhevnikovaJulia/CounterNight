@@ -1,8 +1,7 @@
-import React, {ChangeEvent, useState} from 'react';
-import s from "./DisplayInputs.module.css";
+import React, {ChangeEvent} from "react"
+import s from "./DisplayInputs.module.css"
 
 type DisplayInputsPropsType={
-  // onChangeInput:(e:ChangeEvent<HTMLInputElement>) => void
   onChangeMaxInput:(e:ChangeEvent<HTMLInputElement>) => void
   onChangeStartInput:(e:ChangeEvent<HTMLInputElement>) => void
   maxValue: number
